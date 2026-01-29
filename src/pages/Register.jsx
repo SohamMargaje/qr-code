@@ -21,8 +21,11 @@ export default function Register() {
         phone,
         city,
       });
-const link = `/profile/${docRef.id}`;  
+// Replace your local/network URL with Vercel URL
+// New code
+const link = `https://qr-codee-9lyf7m6i4-sohams-projects-5445cdbe.vercel.app/profile/${docRef.id}`;
 setQrLink(link);
+
 
 
       setQrLink(link);
